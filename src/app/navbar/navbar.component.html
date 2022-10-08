@@ -1,0 +1,26 @@
+<header>
+  <h1>Welcome, {{ name }}</h1>
+</header>
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-xs-12">
+
+  <input
+  type="text"
+  class="form-control"
+  placeholder="Enter your name"
+  [(ngModel)] = "name"
+  value = "name"
+  >
+  <br>
+    <button
+    class="btn btn-dark"
+    type="button"
+    (click)="currentSearch()"
+>Search Here</button>
+</div>
+  </div>
+</div>
+ <!-- *ngFor="let newSearch of search; let i = index">
+  {{ currentSearch().value(i) }} -->
