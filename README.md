@@ -6,22 +6,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Class Exercise Instructions
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Create a new Angular application.
 
-## Build
+Generate two components using the CLI:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+"navbar": a component that displays an input box and a search button.
+"search-results": a component that displays a list of your search history.
+The "NavbarComponent" should contain an input and a button.
 
-## Running unit tests
+The input should use two-way-binding to update a variable in your typescript file.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The button should have a click listener that runs a function that adds the currentSearchTerm to an array of searches.
 
-## Running end-to-end tests
+The "SearchResultsComponent" should loop through the searchHistory array and display all the searches you have previously inputed.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Display the text of the search on its own line
+Create a new Directive called "RandomBGColorDirective".
 
-## Further help
+This directive should take in an elementRef and give it a random background color.
+Publish your project to GitHub!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Bonus: Listen for a hover event inside your "RandomBgColorDirective" that updates the background color of that element to a new color.
