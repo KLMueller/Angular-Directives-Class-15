@@ -22,5 +22,8 @@
 </div>
   </div>
 </div>
- <!-- *ngFor="let newSearch of search; let i = index">
-  {{ currentSearch().value(i) }} -->
+<div *ngFor="let newSearch of search; let i = index">
+<p appRandomBGColorDirective>
+ {{ search[i]}}
+  </p>
+</div>
