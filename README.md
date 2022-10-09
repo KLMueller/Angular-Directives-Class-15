@@ -1,3 +1,5 @@
+***As of 10/08, only completed up to step #3.  Still a work in progress
+
 # Class15AngularDirectives
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
