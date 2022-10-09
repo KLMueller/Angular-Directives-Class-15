@@ -1,4 +1,5 @@
 ***As of 10//09, entire exercise completed minus the bonus and search-results not yet used. All working functions are coming from navabr and randomColor Directive.
+<br>
 ***As of 10/08, only completed up to step #3.  Still a work in progress
 
 # Class15AngularDirectives
