@@ -1,3 +1,4 @@
+***As of 10//09, entire exercise completed minus the bonus and search-results not yet used. All working functions are coming from navabr and randomColor Directive.
 ***As of 10/08, only completed up to step #3.  Still a work in progress
 
 # Class15AngularDirectives
@@ -10,22 +11,24 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Class Exercise Instructions
 
-Create a new Angular application.
+1. Create a new Angular application.
 
-Generate two components using the CLI:
+2. Generate two components using the CLI:
 
 "navbar": a component that displays an input box and a search button.
 "search-results": a component that displays a list of your search history.
-The "NavbarComponent" should contain an input and a button.
+
+3. The "NavbarComponent" should contain an input and a button.
 
 The input should use two-way-binding to update a variable in your typescript file.
 
 The button should have a click listener that runs a function that adds the currentSearchTerm to an array of searches.
 
-The "SearchResultsComponent" should loop through the searchHistory array and display all the searches you have previously inputed.
+4. The "SearchResultsComponent" should loop through the searchHistory array and display all the searches you have previously inputed.
 
 Display the text of the search on its own line
-Create a new Directive called "RandomBGColorDirective".
+
+5. Create a new Directive called "RandomBGColorDirective".
 
 This directive should take in an elementRef and give it a random background color.
 Publish your project to GitHub!
